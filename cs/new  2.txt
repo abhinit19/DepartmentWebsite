@@ -1,0 +1,17 @@
+$_SESSION['message']=$score;
+                    echo"<script>alert('completed succesfully')</script>";
+                    echo"<script>location.href='dashboard.php'</script>";
+					
+					
+					
+					
+					
+					
+					CREATE TABLE score (
+    sno int NOT NULL,
+    username varchar(50) NOT NULL,
+    test_name varchar(50) NOT NULL,
+	mark int(3) NOT NULL;
+   
+    FOREIGN KEY (username) REFERENCES Persons(PersonID)
+);

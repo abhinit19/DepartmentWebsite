@@ -1,0 +1,484 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Arial";
+}
+
+/*Go to top button Starts*/
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: black; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.fa-arrow-up {
+	color: white;
+} /*Go to top button Ends*/
+
+/*Navigation Bar Starts*/
+#nav-bar ul li a /*Toggler menu*/ {
+	color: #fdc800;
+	text-align: center;
+	padding: 14px 20px;
+	font-family: "FrizQuaT", sans-serif;
+	font-size: 15px;
+}
+
+#nav-bar {
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 5;
+	padding: 10px;
+	height:17%;
+	width:100%;
+	background-color:#002147 ;
+}
+
+.logo img {
+	margin-top:5px;
+	width: 40%;
+	height: 30%px;
+}
+
+.navbar-nav li /*Space b/w menus*/ {
+	padding: 0 10px;
+}
+
+.navbar-nav li a /* Toggler Base*/ {
+	float: right;
+	text-align: left;
+}
+
+#nav-bar h5{
+	color:black!important;
+}
+
+.navbar-nav a:hover {
+	color: #fdc800!important;
+}
+
+.dropdown:hover {
+	color: #fdc800!important;
+}
+
+.dropdown .dropbtn {
+	font-size: 15px !important;
+	font-family: "FrizQuaT", sans-serif !important;
+	border: none !important;
+	outline: none !important;
+	color: #fdc800!important;
+	padding: 14px 16px !important;
+	background-color: inherit !important;
+	margin: 0 !important;
+}
+
+.dropdown-content {
+	display: none !important;
+	position: absolute !important;
+	background-color: #f9f9f9 !important;
+	min-width: 160px !important;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+	z-index: 1 !important;
+}
+
+.dropdown-content a {
+	float: none !important;
+	color: black !important;
+	padding: 10px 10px !important;
+	text-decoration: none !important;
+	display: block !important;
+	text-align: left !important;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block !important;
+}
+
+/*Navigation Ends*/
+
+
+/*Slider*/
+.carousel-caption h5
+{
+    color: white;
+    font-size:30px;
+    font-family: "Cambria";
+}
+#slider
+{
+    width:100%!important;
+    margin-top: -50px;
+    padding:0;    
+}
+/*Slder Ends*/
+
+
+/* Bidder & Auctionner Login Starts*/
+#login .container
+{
+    position: relative;
+    width:600px;
+    padding-left: 60px;
+}
+#login .container:hover
+{
+        transform:translateY(-5px);
+		border-style:groove;
+}
+#login
+ {
+    margin-top:-30px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/cs.jpg);
+	height: 140vh;
+	background-size: cover;
+    background-position: center;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom:50px;
+  } 
+  input[type=text], input[type=password] 
+  {
+    width: 80%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .imgcontainer/* Center the image and position the close button */
+   {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }  
+  img.avatar
+   {
+    width: 25%;
+    border-radius: 40%;
+  }  
+ /* img.logos
+  {    
+    margin-left:550px;
+    margin-top: -100px;
+  }*/
+  .container
+   {
+    padding: 10px;
+  }  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  } 
+  
+  
+  #login .btn
+{
+    font-family: "Cambria";
+}
+/* Student Login Ends*/
+
+
+/*Student Register Page*/
+
+#register .container
+{
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 10px;
+}
+#register .container:hover
+{
+    box-shadow:0 2px 20px white;
+
+}
+span.alogin
+{
+    float:right;
+    padding-top: 16px;
+  } 
+#register
+{
+    font-size:17px;
+    margin-top:-50px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/art.jpg);
+	height: 140vh;
+	background-size: cover;
+    background-position: center;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+/*Bidder Register Ends*/
+
+/*ResetPassword Starts*/
+#forget
+{
+    font-size:17px;
+    margin-top:-50px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/2.jpg);
+	height: 140vh;
+	background-size: cover;
+    background-position: center;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+#forget .container
+{
+    background-position: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#forget .container:hover
+{ 
+    box-shadow:0 2px 20px white;
+    color:white;
+}
+#forget .btn
+{
+    margin-left:500px;
+    margin-top: -100px;
+    font-family: "Cambria";
+}
+/*ResetPassword ends*/
+
+/*Academics Start*/
+#academics .column {
+  float: left;
+  width: 30%;
+  padding: 5px 5px 50px;
+}
+
+.AI
+{
+	width: 80%!important;
+	margin-left:250px!important;
+}
+
+.CS
+{
+	width: 50%!important;
+	margin-left:350px!important;
+}
+
+#academics h2
+{
+text-align: center ;
+color:#efefef!important;
+padding-bottom: 10px;
+}
+#academics h2::after
+{
+    content:'';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin:20px auto 5px;
+}
+
+#academics {margin: 0 -5px;
+width:100.3%;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/acad.jpg);}
+
+#academics:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  #academics.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+#academics .card {
+  box-shadow: 0 4px 8px 0 white;
+  padding: 16px;
+  text-align: center;
+  background-color:#002147;
+  text-color: white;
+}
+
+#academics .card:hover{
+	transform:translateY(-5px);
+	box-shadow: 0 4px 8px 0 black;
+}
+/*Academics Ends*/
+
+/*About starts*/
+#about
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/7.jpg);
+	height: 100vh;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+#about .btn
+{
+margin-top: 20px;
+margin-bottom: 30px;
+}
+#more 
+{
+    display: none;
+}
+.about-content
+{
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: "Cambria";
+}
+#about h2
+{
+text-align: center ;
+color:#efefef!important;
+padding-bottom: 10px;
+}
+#about h2::after
+{
+    content:'';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin:20px auto 5px;
+}
+/*About Ends*/
+
+/*DashBoard Starts*/
+.dash
+{
+    font-family: 'Cambria', serif;
+}
+/* Navbar */
+
+.sidebar
+{
+   height: 100vh;
+   background-image:url(../Images/10.jpg); 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 10px 5px 15px;
+   width:100%;
+}
+.top-navbar
+{
+	height: 10vh;
+    background-image:url(../Images/10.jpg); 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100%;
+}
+.bottom-border
+{
+    border-bottom: 1px groove #fdc800;
+}
+.sidebar-link
+{
+    transition: all .3s;
+}
+.sidebar-link:hover
+{
+background-color: white;
+color: #002147!important;
+border-radius: 5px;
+transform:translateY(-5px);
+}
+.current
+{
+    background-color: #fdc800;
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    color:#002147 !important;
+    transition: all .3s;
+    box-shadow: 5px 5px 10px rgb(3, 3, 3);
+	
+}
+.current:hover
+{
+    transform:translateY(-5px);
+    border-radius: 7px;
+    font-weight:bold;
+    box-shadow: 5px 5px 25px rgb(3, 3, 3);
+}
+
+.ct
+{
+    margin-left: 50px;
+}
+.prof
+	{
+	margin-top:100px!important;
+	}
+
+/*DashBoard Ends*/
+
+
+/*Footer Starts*/
+#footer
+{
+    padding:12px;
+	background-color:#002147 ;	
+}
+
+.social_media
+{
+ margin-left:50px;
+}
+
+
+.text-center
+{
+	color:white;
+}
+
+/*Footer Ends*/
+
+#container{
+    margin : 20px auto;
+    background-color: white;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+
+
